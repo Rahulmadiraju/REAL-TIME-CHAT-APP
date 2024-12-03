@@ -17,9 +17,12 @@
 // });
 
 
+
+
+
 export default ({ env }) => ({
   auth: {
-    secret: env('ADMIN_JWT_SECRET'),
+    secret: env('ADMIN_JWT_SECRET', 'Qz7ggXJa1GuztCswXdBu3w=='),  // Use the generated secret
   },
   apiToken: {
     salt: env('API_TOKEN_SALT', 'H2IHvnFI85xhWQFW/S6MRQ=='), // Use your generated salt
