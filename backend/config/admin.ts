@@ -29,7 +29,7 @@ export default ({ env }) => ({
   },
   transfer: {
     token: {
-      salt: env('TRANSFER_TOKEN_SALT'),
+      salt: env('TRANSFER_TOKEN_SALT', '02MCKOn5wHz15rrnh5TGog=='),
     },
   },
   flags: {
