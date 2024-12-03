@@ -35,7 +35,7 @@ Visual Studio Code or any preferred code editor
 
 1. Clone the Repository to your local machine:
 ```
-
+git clone https://github.com/Rahulmadiraju/REAL-TIME-CHAT-APP.git
 ```
 
 2. Navigate to the backend directory:
